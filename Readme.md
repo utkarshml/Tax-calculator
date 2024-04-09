@@ -36,6 +36,10 @@ This is a web application that allows users to calculate their overall income af
 2. Submit the form to calculate the overall income after tax deductions.
 3. View the result in the modal.
 
+## Images 
+
+ ![Image 1](./assets/Screenshot%20from%202024-04-09%2023-41-39.png)
+  ![Image 1](./assets/Screenshot%20from%202024-04-09%2023-41-55.png)
 
 
 ## Testing
