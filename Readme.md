@@ -50,7 +50,7 @@ This is a web application that allows users to calculate their overall income af
     - Total applicable deductions: 5,000
   - **Expected Output:** Overall income should be 55,000 after deductions.
 
-- **Scenario 2:** Calculate overall income with zero extra income.
+- **Scenario 2:** Calculate overall income with zero extra income and 41-60 age.
   - **Inputs:** 
     - Gross annual income: 60,000
     - Extra income: 0
@@ -58,7 +58,7 @@ This is a web application that allows users to calculate their overall income af
     - Total applicable deductions: 7,000
   - **Expected Output:** Overall income should be 53,000 after deductions.
 
-- **Scenario 3:** Calculate overall income with zero extra income.
+- **Scenario 3:** Calculate overall income with zero extra income and Above 60.
   - **Inputs:** 
     - Gross annual income: 60,000
     - Extra income: 0
@@ -68,7 +68,7 @@ This is a web application that allows users to calculate their overall income af
 
 ### Integration Tests
 
-- **Scenario:** Submitting the form with valid inputs.
+- **Scenario:** Submitting the form with valid inputs except age group.
   - **Inputs:** 
     - Gross annual income: 70,00,000
     - Extra income: 5,000
