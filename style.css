@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+    width: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+.text-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-card > .card {
+    width: 50%;
+
+    
+}
+span{
+    width: 0;
+    margin: 0;
+    padding: 2px;
+}
+.custom-tooltip {
+    --bs-tooltip-bg: gray!important;
+  }
+
+.input-div{
+    position: relative;
+}
+.input-div > .warn {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    height: 0;
+    width: 0;
+    border-color: red!important;
+    padding: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+}
+.tooltip {
+    z-index: 99;
+}
+.tooltip-inner {
+    background: #495057!important;}
+.tooltip-arrow::before{
+    border-top-color: #495057!important;
+
+}
+@media screen and  (max-width: 992px) {
+    .text-card > .card {
+        width: 100%;
+        }
+        
+}
