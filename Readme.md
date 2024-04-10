@@ -39,6 +39,8 @@ This is a web application that allows users to calculate their overall income af
 ## Images 
 
  ![Image 1](./assets/Screenshot%20from%202024-04-09%2023-41-39.png)
+
+ 
   ![Image 1](./assets/Screenshot%20from%202024-04-09%2023-41-55.png)
 
 
@@ -70,9 +72,7 @@ This is a web application that allows users to calculate their overall income af
     - Total applicable deductions: 7,000
   - **Expected Output:** Overall income should be 53,000 after deductions.
 
-### Integration Tests
-
-- **Scenario:** Submitting the form with valid inputs except age group.
+- **Scenario 4:** Submitting the form with valid inputs except age group.
   - **Inputs:** 
     - Gross annual income: 70,00,000
     - Extra income: 5,000
@@ -80,7 +80,7 @@ This is a web application that allows users to calculate their overall income af
     - Total applicable deductions: 10,000
   - **Expected Result:** Form should not submit and show invalid input in age group input .
 
-  - **Scenario:** Submitting the form with valid inputs.
+  - **Scenario 5:** Submitting the form with valid inputs.
   - **Inputs:** 
     - Gross annual income: 70,00,000
     - Extra income: 5,000
@@ -88,7 +88,7 @@ This is a web application that allows users to calculate their overall income af
     - Total applicable deductions: 10,000
   - **Expected Result:** Overall income should be 4896502.4 after deductions.
   
-  - **Scenario:** Submitting the form with valid inputs.
+  - **Scenario 6:** Submitting the form with valid inputs.
   - **Inputs:** 
     - Gross annual income: 70,00,000
     - Extra income: 5,000
@@ -96,7 +96,7 @@ This is a web application that allows users to calculate their overall income af
     - Total applicable deductions: 10,000
   - **Expected Result:** Overall income should be 4197003.199999999 after deductions.
 
-   - **Scenario:** Submitting the form with valid inputs.
+   - **Scenario 7:** Submitting the form with valid inputs.
   - **Inputs:** 
     - Gross annual income: 70,00,000
     - Extra income: 5,000
@@ -104,7 +104,15 @@ This is a web application that allows users to calculate their overall income af
     - Total applicable deductions: 10,000
   - **Expected Result:** Overall income should be 6295500.8 after deductions.
 
-- **Scenario:** Submitting the form with invalid inputs (e.g., non-numeric values).
+- **Scenario 8:** Submitting empty input forms
+ - **Inputs:** 
+   - Gross annual income : 
+   - Extra income : 
+   - Age group : 
+   - Total applicable deduction : 
+  - **Expected Result:** Form not submit and throw suggestion by tooltips.
+
+- **Scenario 9:** Submitting the form with invalid inputs (e.g., non-numeric values).
   - **Inputs:** 
     - Gross annual income: "abc"
     - Extra income: "xyz"
